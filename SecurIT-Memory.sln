@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37012.4 d17.14
+VisualStudioVersion = 17.14.37012.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurIT-Memory", "SecurIT-Memory.csproj", "{33741ED0-0C2B-4356-BBF4-B222345D3120}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurIT-Memory.Logic", "SecurIT-Memory.Logic\SecurIT-Memory.Logic.csproj", "{F450BB0B-811D-47DB-95FC-008BBFAE3B34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurIT-Memory.View", "SecurIT-Memory.View\SecurIT-Memory.View.csproj", "{33741ED0-0C2B-4356-BBF4-B222345D3120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F450BB0B-811D-47DB-95FC-008BBFAE3B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F450BB0B-811D-47DB-95FC-008BBFAE3B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F450BB0B-811D-47DB-95FC-008BBFAE3B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F450BB0B-811D-47DB-95FC-008BBFAE3B34}.Release|Any CPU.Build.0 = Release|Any CPU
 		{33741ED0-0C2B-4356-BBF4-B222345D3120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{33741ED0-0C2B-4356-BBF4-B222345D3120}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33741ED0-0C2B-4356-BBF4-B222345D3120}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace SecurIT_Memory
 {
+    // internal = dans l'assembly
     internal static class Program
     {
         /// <summary>
@@ -14,9 +15,11 @@ namespace SecurIT_Memory
         [STAThread]
         static void Main()
         {
+
+            // Lancement de l'application
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new SecurITMemory());
         }
     }
 }
