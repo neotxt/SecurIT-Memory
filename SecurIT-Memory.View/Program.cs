@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SecurIT_Logic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,11 +16,10 @@ namespace SecurIT_Memory
         [STAThread]
         static void Main()
         {
-
             // Lancement de l'application
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SecurITMemory());
+            Application.Run(new MainMenu());
         }
     }
 }
