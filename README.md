@@ -32,5 +32,5 @@ Le projet respecte les principes de la Programmation Orientée Objet avec une s�
 4. Cliquez sur "Démarrer" (ou touche F5) pour compiler et exécuter le jeu.
 
 ## Auteurs
-* [Ton Nom et Prénom]
-* [Nom et Prénom de ton Binôme]
+* Néo Silvertand
+* Loulia Tsui-Way-Sagne
